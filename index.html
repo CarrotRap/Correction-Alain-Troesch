@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hasard 2 Math</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <div class="menu">
+            <p class="title">Correction Alain Troesch</p>
+            <ul class="list">
+                <li><a href="#" id="home_btn">Accueil</a></li>
+                <li><a href="#" id="find_btn">Chercher une correction</a></li>
+                <li><a href="#" id="submit_btn">Soumettre une correction</a></li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <div style="display: none;" class="home">
+                <p class="title">Ce site est dédié à la correction des exercices d'<a href="http://alain.troesch.free.fr/">Alain Troesch</a></p>
+            
+                <p>C'est un site communautaire où chacun peut proposer une solution à des exercices. Avant de la poser, nous verifirons le contenu des solutions et leur justesse.</p>
+            
+                <p>N'hésitez donc pas à tenter de rédiger des preuves. Par ailleurs, si c'est possible, priviligiez la rédaction en <a href="https://fr.wikipedia.org/wiki/LaTeX">Latex</a>.</p>
+
+                <p>Merci et bonne consultation</p>
+            </div>
+            <div style="display: none;" class="find">
+                <p class="title">Recherche de corrections</p>
+                <p>Entrez le numéro de l'exercice dont vous souhaitez une correction/indication. Exemple : 22.14</p>
+                <p>Vous pouvez aussi consulter la <a href="./files">liste des exercices</a></p>
+                <div class="c">
+                    <input id="finder" placeholder="Exercice" type="text">
+                    <p class="error"></p>
+                </div>
+
+                <iframe style="display:none;" class="frame"></iframe>
+            </div>
+            <div style="display:none;" class="submit">
+                <p class="title">Soumettre une/des solutions(s)</p>
+
+                <p>Pour proposer des corrections et/ou indications, vous devez pour l'instant nous envoyer un mail (c'est en cours d'amélioration)</p>
+                <p>Le mail devera contenir au minimum les informations suivantes : l'exercice concerné, le type de propal (indications et/ou corrigé complet), la preuve.</p>
+                    
+                <p>En vous remerciant d'avance pour toutes vos propositions.</p>
+
+                <p><a href="mailto:lesmathsdetiftouf@gmail.com">lesmathsdetiftouf@gmail.com</a></p>
+            </div>
+        </div>
+
+        <script src="./script.js"></script>
+    </body>
+</html>

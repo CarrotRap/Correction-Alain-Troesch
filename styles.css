@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    margin:0;
+    padding: 0;
+
+    display: flex;
+
+}
+
+a,p,li {
+    font-family: "Open Sans", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #035E7B;
+}
+
+.menu {
+    width: 20%;
+    height: 100vh;
+    background-color: #FAF8D4;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.menu .title {
+    margin: 0;
+    padding: 10px;
+    background-color: #EBDCCB;
+    font-weight: 800;
+    text-align: center;
+}
+
+.menu .list li {
+    padding-bottom: 15px;
+}
+
+.menu .list li a{
+    color:black;
+    font-size: small;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.menu .list li a:hover  {
+    color: #035E7B;
+    transition: 0.3s;
+}
+
+.content {
+    width: 80%;
+    position: absolute;
+    top:0;
+    right: 0;
+}
+
+.content .title {
+    font-size: large;
+    font-weight: 800;
+}
+
+.home, .find, .submit {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.find .c {
+    display: flex;
+}
+
+.find .c input {
+    margin-right: 20px;
+}
+
+.find .c .error {
+    font-size: small;
+    padding: 0;
+    margin: 0;
+}
+
+.find .frame {
+    width: 100%;
+    border:0;
+    height: 100vh;
+}
